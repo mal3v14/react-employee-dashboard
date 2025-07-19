@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# React Employee Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple employee management dashboard built with React class components.  
+This project was created as part of a frontend course to practice React fundamentals using the class-based approach.
 
-## Available Scripts
+🔗 **Live demo**: [https://mal3v14.github.io/react-employee-dashboard/](https://mal3v14.github.io/react-employee-dashboard/)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Dashboard Preview](./preview-1.png) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## ⚙️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React (Class Components)**
+- **JavaScript (ES6+)**
+- **CSS3**
+- **Create React App**
+- **Deployed via GitHub Pages**
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 About the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This dashboard allows users to manage a list of employees with features to:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Add new employees
+- Delete employees
+- Toggle promotion and salary increase status
+- Filter employees by search and conditions
 
-### `yarn eject`
+The project was developed using React class components, focusing on:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- State management via `this.state`
+- Handling events and methods inside classes
+- Passing props between components
+- Lifecycle methods (where applicable)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> ⚠️ **Note:** This project uses class components; however, there are plans to refactor it into functional components with React Hooks as part of future learning and improvement.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
