@@ -3,11 +3,7 @@ import './employees-list-item.css';
 
 const EmployeesListItem = (props) => {
 
-
-
-
     const { name, salary, onDelete, onTogleProp, increase, rise } = props;
-
 
     let classNames = "list-group-item d-flex justify-content-between";
     if (increase) {
@@ -16,8 +12,6 @@ const EmployeesListItem = (props) => {
     if (rise) {
         classNames += " like";
     }
-
-
 
     return (
         <li className={classNames}>
@@ -45,8 +39,5 @@ const EmployeesListItem = (props) => {
     )
 
 }
-
-
-
 
 export default EmployeesListItem;
